@@ -8,7 +8,7 @@ Bu web sayfasında memleketim Samsun'un tarihi güzellikleri, geleneksel özelli
 - Bu sayfada ilk olarak girerken karşımıza çıkacak olan kullanıcı adı ve şifre yani login ekranını koyulacak
 - Hakkında adlı sayfada kendim hakkında bilgiler verilecek
 - Sehrim sayfasında sehir ile ilgili bilgiler vererek şehrin özelliklerini belirteceğim aynı zamanda görseller ile bu sayfayı desteklenecek.
-- Mirasımız adlı sayfada ise şehrin kültürel özelliklerini anlatılacak.
+- Takımımız adlı sayfada şehrin takımıyla ilgili bilgiler verilecek.
 - Eğitim bilgilerim ve özgeçmişi ilgilendiren özgeçmiş sayfası bulunacak.
 - Ayrıca siteye bir iletişim sayfası eklenecek ve bu sayfanın içinde form elemanları bulunacak
 - Bunlara ek olarak daha fazla sayfa ile sayfa daha çok detaylandırılabilir.
