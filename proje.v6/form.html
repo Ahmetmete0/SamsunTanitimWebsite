@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+
+<body>
+
+    <nav class="navbar bg-danger navbar-expand-sm navbar-dark  fixed-top">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-left" type="button" data-toggle="collapse"
+                data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+                <ul class="navbar-nav ">
+                    <li class="nav-item"><a href="hakkinda.html" class="nav-link">Hakkında</a></li>
+                    <li class="nav-item"><a href="ozgecmis.html" class="nav-link">Özgeçmiş</a></li>
+                    <li class="nav-item"><a href="sehrim.html" class="nav-link">Şehrim</a></li>
+                    <li class="nav-item"><a href="takimimiz.html" class="nav-link">Takımımız</a></li>
+                    <li class="nav-item"><a href="iletisim.html" class="nav-link active">İletisim</a></li>
+                    <li class="nav-item"><a href="form.html.html" class="nav-link active">Form Bilgileri</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <br><br><br>
+        <h2>Form Bilgileri Sayfasına Hoşgeldiniz</h2>
+
+        <br>
+        
+        <h4>Ad:</h4><p id="demo"></p>
+
+        <h4>Soyad:</h4> <p id="demo3"></p>
+
+        <h4>Email:</h4><p id="demo2"></p>
+
+        <h4>Mesaj:</h4><p id="demo4"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+        <script type="text/javascript">
+            function getParameterByName(name, url) {
+                if (!url) url = window.location.href;
+                name = name.replace(/[\[\]]/g, '\\$&');
+                var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                    results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, ' '));
+            }
+
+            var sn = getParameterByName('name');
+            var sm = getParameterByName('surname');
+            var ss = getParameterByName('email');
+            var sk = getParameterByName('message');
+            var sq = getParameterByName('accept');
+            var sw = getParameterByName('inlineRadioOptions');
+
+
+
+
+
+
+
+            document.getElementById("demo4").innerHTML = sk;
+            document.getElementById("demo2").innerHTML = ss;
+            document.getElementById("demo3").innerHTML = sm;
+            document.getElementById("demo").innerHTML = sn;
+
+            
+
+            
+        </script>
+
+
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+
+
+
+</body>
+
+</html>
